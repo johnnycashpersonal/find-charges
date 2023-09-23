@@ -3,13 +3,13 @@ import pandas as pd
 
 # Read the CSV file
 try:
-    df = pd.read_csv('Your CSV File Here')
+    df = pd.read_csv('Checking - 8011_09-22-2022_09-26-2023.csv')
 except FileNotFoundError:
     print("CSV file not found.")
     exit()
 
 # List of keywords to search for
-keywords = ['Your keywords go here']
+keywords = ["PEACEHEALTH", "CITY OF EUGENE", "UO TRANS SVCS", "UO UNIVERSITY DIEUGENE"]
 
 # Loop through each keyword
 final_total_charge = 0
